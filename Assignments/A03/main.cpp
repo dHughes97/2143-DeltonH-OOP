@@ -2,7 +2,7 @@
 /*****************************************************************************
 *                    
 *  Author:           Prof. Griffin (Commented by Delton Hughes)
-*  Email:            dlhughes0129@,y.msutexas.edu
+*  Email:            dlhughes0129@my.msutexas.edu
 *  Label:            A03
 *  Title:            Proper Program Commenting
 *  Course:           CMPS 2143
