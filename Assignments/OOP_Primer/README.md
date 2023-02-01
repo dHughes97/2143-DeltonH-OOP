@@ -12,21 +12,18 @@
 >
 >
 > **For example:** 
-><img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
+<img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
 
 
 
 #### Attributs/Properties
 
 > **Definition:**
-> **Attribute**-particular property of an object, element or file
+> **Attribute**-particular property of an object, element or file.
 
 
-> **Properties**-special sort of class member, intermediate in 
-> functionality between a field(or data member) and a method.
-
-
-> **Photo example:** 
+> **Properties**-special sort of class member, intermediate in functionality between a field(or data member) and a method.
+ 
 >
 ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/300px-CPT-OOP-objects_and_classes_-_attmeth.svg.png" width=250>
 
