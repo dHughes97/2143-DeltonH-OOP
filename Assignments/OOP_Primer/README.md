@@ -11,7 +11,7 @@
 > of an application from the outer world. 
 >
 >
-> **For example:** 
+>  
 <img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
 
 
@@ -76,15 +76,27 @@
 
 #### Class Variable
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
-><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
+> **Definition: A class variable defines a specific attribute or
+> property for a class. Like the example below. 
+>**Code Example:**
+> ```
+> class student
+> {
+>   private:
+>     string name;
+>     string major;
+>     int numClasses; 
+>     double GPA;
+>   public:
+>   etc...
+> ```
+><img src="https://www.w3resource.com/w3r_images/java-class-image.png" width=250>
 
 
 
 #### Composition
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
+> **Definition:** 
 >
 ><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
 
