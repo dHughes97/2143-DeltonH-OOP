@@ -7,9 +7,10 @@
 
 #### Abstraction
 
-
 > **Definition:** The process of hiding the internal details 
 > of an application from the outer world. 
+>
+>
 > **For example:** 
 ><img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
 
@@ -19,8 +20,12 @@
 
 > **Definition:**
 > **Attribute**-particular property of an object, element or file
+
+
 > **Properties**-special sort of class member, intermediate in 
->> functionality between a field(or data member) and a method.
+> functionality between a field(or data member) and a method.
+
+
 > **Photo example:** 
 >
 ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/300px-CPT-OOP-objects_and_classes_-_attmeth.svg.png" width=250>
@@ -54,9 +59,20 @@
 >        //because this only has access to private
 >       return name;
 >    }
-> }
+>    //Mutator function to set the numClasses
+>    void setNumClasses(int classes){
+>       //Only stores if valid
+>       if(classes >=0 && classes <=6)
+>           numClasses = classes;
+>    }
+>    //other member function 
+>    bool isHonorRoll(){
+>       retunr GPA >= 3.0;
+>    }
+> };
 > ```
 > **Picture example:** 
+>
 ><img src="https://www.devopsschool.com/blog/wp-content/uploads/2021/05/Complete-Tutorials-of-PHP-OOP-ClassesObjects-with-Example-code.png" width=250>
 
 
