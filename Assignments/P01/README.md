@@ -21,7 +21,7 @@ to manipulate the data in several different ways.
 - Need the #include <fstream> library
 - Needs input.dat and input1.dat
 - Layout is like below
-
+```
 +--------------+
 | 10 20 30     |
 |              |
@@ -36,6 +36,7 @@ to manipulate the data in several different ways.
 |              |
 |              |
 +--------------+
+```
 
 ### Example Command
 
