@@ -2,8 +2,10 @@
 ### Delton Hughes
 ### Description:
 
-- This program was to create our own Vector Class which would allow us 
-to manipulate the data in several different ways. 
+- This program was to build on top of our previous Vector Class by overloading
+operators to help with convenience of use for the user. For example by using 
+<<,*,+,-,[] operators we allow the user to do basic math with vectors, print out, 
+and to insert a integer to a vector. 
 
 
 
@@ -13,41 +15,36 @@ to manipulate the data in several different ways.
 | :---: | --------- | -------------------------------- |
 |   1   | main.cpp  | Main driver of my list program . |
 |   2   | Banner.cpp| Banner uploaded.                 |                  
-|   3   | input.dat | Text File                        |
-|   4   | input1.dat| Text File
+|   3   | output.txt| Text File                        |
 ### Instructions
 
 - Use the commented instructions on how to use method commands.
 - Need the #include <fstream> library
-- Needs input.dat and input1.dat
+- Creates a output.txt
 - Layout is like below
 ```
 +--------------+
-| 10 20 30     |
-|              |
-|              |
-|              |
-|              |
-+--------------+
-+--------------+
-| 10           |
-| 20           |
-| 30           |
-|              |
+| [10, 20, 30] |
+|  3 //for []  |
+|  0 //false   |
+|  1 //true    |
 |              |
 +--------------+
 ```
 
 ### Example Command
 
-  -  v1.pushFront(18);                //pushes number to the front
- *      -  v1.pushRear(18);           //pushes number to the back
- *      -  v1.print();                //prints to outfile
- *      -  Vector v2(A,5);            //creates an array
- *      -  x = v1.popFront();         //takes off the front and deletes
- *      -  v2.inOrderPush(27);        //makes list of ints increasing order
- *      -  x = v1.popRear();          //pops rear value
- *      -  x = v2.popAt(3);           //pops specific value
- *      -  x = v2.find(51);           //finds specific value
- *      -  Vector v4("input.dat");    //reads list from an input file 
-
+*  -  void _inorderPush(int x)       //sets array in order
+*  -  MyVector(int A[], int aSize)   //allows us to set an array and its size
+*  -  void pushFront(const MyVector &other) //pushes vector to front
+*  -  pushRear(const MyVector &other)//pushes vector to rear
+*  -  Node *find(int index)          //finds a value
+*  -  friend ostream &operator<<(ostream &os, const MyVector &rhs)  //overloads cout
+*  -  friend ofstream &operator<<(ofstream &os, const MyVector &rhs)//overloads fout
+*  -  bool operator==(const MyVector &rhs)   //sees if vectors are equivalent
+*  -  void operator=(const MyVector &rhs)    //assigns a vector
+*  -  int &operator[](int index)             //put in indeces and adds the value to vector 
+*  -  void operator=(const MyVector &rhs)    //assigns a vector
+*  -  MyVector operator+(const MyVector &rhs)//adds vectors
+*  -  MyVector operator*(const MyVector &rhs)//multiplies vectors
+*  -  MyVector operator-(const MyVector &rhs)//subtracts vectors
