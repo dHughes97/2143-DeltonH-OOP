@@ -1,14 +1,29 @@
-/**
- * This code defines a Graph class with a constructor that takes
- * the number of vertices V and initializes an empty adjacency
- * list for each vertex. The addEdge function adds an undirected
- * edge between two vertices. The printGraph function prints out
- * the adjacency list for each vertex, showing the nodes that are
- * connected to it. The main function creates a new Graph object
- * with 5 vertices, adds several edges between them, and then prints
- * out the graph.
- */
-
+/*********************************************************************
+ *
+ *  Author:           Delton Hughes
+ *  Email:            dlhughes0129@my.msutexas.edu
+ *  Label:            P03
+ *  Title:            Graphviz
+ *  Course:           CMPS 2143
+ *  Semester:         Spring 2023
+ *
+ *  Description:
+ *    This program is to create and compile the syntax for the 
+ *    Graphviz online compiler. Essentially we will make a program
+ *    which will link nodes and style said nodes. Whether that be an
+ *    edge or the node itself. Then it will print out syntax to 
+ *    the compiler and the "outfile.txt".
+ * 
+ *  Usage:
+ *       -Allows the user to dynamicall create a linked list or a Vector
+ *       -Also allows for user to +,-,*, print to outfile using fout <<, 
+ *         print to console using cout <<, use [] to insert an integer, 
+ *         and lastly check if 2 vectors are equivalent using ==. 
+ *
+ *  Files:
+ *       main.cpp      :driver program
+ *       output.txt    :txt file printint program output
+ **********************************************************************/
 #include <iostream>
 #include <map>
 #include <vector>
