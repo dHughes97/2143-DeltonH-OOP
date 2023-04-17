@@ -132,7 +132,7 @@ int main() {
 }
 
 ``` 
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Frealpython.com%2Finheritance-composition-python%2F&psig=AOvVaw1dyIIPoREuGEC2dz6pUARd&ust=1679077529152000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCfsK-J4f0CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40kamilmasyhur%2Fa-principle-of-object-oriented-design-79b9bfefd446&psig=AOvVaw0vNSN3YLy3OuH2KDs-H_BS&ust=1681786928088000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDPotX2r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -164,7 +164,7 @@ int main() {
         this->price = price;
     }
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fconstructors-c%2F&psig=AOvVaw3vRN-QyBBfNXpRKAppOmE2&ust=1679077661190000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJjrne6J4f0CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fconstructors-c%2F&psig=AOvVaw21q3nrJo2okdWqCA-jZDFw&ust=1681786996024000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDa5fX2r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -190,7 +190,7 @@ public:
 
 ```
 >
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40kamilmasyhur%2Fa-principle-of-object-oriented-design-79b9bfefd446&psig=AOvVaw3jIRTlLalWXcA7d43KS1VC&ust=1681690602051000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiFzOmPrf4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FcWE3StXcEyM%2Fmaxresdefault.jpg&tbnid=8R9K_6UPjyCQzM&vet=12ahUKEwjN_I7A-K_-AhVfMt4AHb8yBPYQMygEegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fviktor-kukurba.medium.com%2Fobject-oriented-programming-in-javascript-4-encapsulation-4f9165cd26f9&docid=_QHVEehau8V6jM&w=1280&h=720&q=encapsulation%20oop%20definition&ved=2ahUKEwjN_I7A-K_-AhVfMt4AHb8yBPYQMygEegUIARDCAQ" width=250>
 
 
 
@@ -217,7 +217,7 @@ public:
 ```
 
 
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20220802105339%2FFriendFunctioninC-660x328.png&tbnid=eGdhXh4GMno0RM&vet=12ahUKEwjSy4PmkK3-AhUrN94AHTzUBV4QMygBegUIARC8AQ..i&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Ffriend-class-function-cpp%2F&docid=FyVwkkJos8SXGM&w=660&h=328&q=friends%20oop%20definition&ved=2ahUKEwjSy4PmkK3-AhUrN94AHTzUBV4QMygBegUIARC8AQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Ffriend-class-function-cpp%2F&psig=AOvVaw2vZkc7jOsBvDSebG5VC-lx&ust=1681787469221000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICkvdf4r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -243,7 +243,7 @@ class Triangle : public Shape {
 public:
 }
 ```
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb6%2FMethod_overriding_in_subclass.svg%2F220px-Method_overriding_in_subclass.svg.png&tbnid=7EXLMgePqGyJlM&vet=12ahUKEwj1uJP_ka3-AhX4Kt4AHUz-A94QMygAegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInheritance_(object-oriented_programming)&docid=FKwTtST1_NLePM&w=220&h=306&q=inheritance%20oop%20definition&ved=2ahUKEwj1uJP_ka3-AhX4Kt4AHUz-A94QMygAegUIARDCAQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInheritance_%2528object-oriented_programming%2529&psig=AOvVaw11XjzbkTHgwHr8ml2569-v&ust=1681787499534000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMiE6eX4r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -257,7 +257,7 @@ private:
 }
 ```
 
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.w3resource.com%2Fw3r_images%2Fjava-class-image.png&tbnid=sxfXnGymFEgdZM&vet=12ahUKEwjd0Kufk63-AhVQH94AHfW1CvkQMygAegUIARC_AQ..i&imgrefurl=https%3A%2F%2Fwww.w3resource.com%2Fjava-tutorial%2Fjava-class-methods-instance-variables.php&docid=V5DeKz6Xs68FgM&w=539&h=280&q=instance%20variable%20oop%20definition&ved=2ahUKEwjd0Kufk63-AhVQH94AHfW1CvkQMygAegUIARC_AQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.w3resource.com%2Fjava-tutorial%2Fjava-class-methods-instance-variables.php&psig=AOvVaw2EGe5GprTuUuZPik44L4Cd&ust=1681787542590000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLihsPr4r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -271,7 +271,7 @@ private:
 }
 ```
 
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.w3resource.com%2Fw3r_images%2Fjava-class-image.png&tbnid=sxfXnGymFEgdZM&vet=12ahUKEwir7PGMlK3-AhW_LN4AHWTADwIQMygAegUIARDKAQ..i&imgrefurl=https%3A%2F%2Fwww.w3resource.com%2Fjava-tutorial%2Fjava-class-methods-instance-variables.php&docid=V5DeKz6Xs68FgM&w=539&h=280&q=member%20variable%20oop%20definition&hl=en&ved=2ahUKEwir7PGMlK3-AhW_LN4AHWTADwIQMygAegUIARDKAQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fcpp-tutorial%2Foops-concepts-in-cpp&psig=AOvVaw39w9J26suXs68P_TdvVLaM&ust=1681787580022000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKC3n4z5r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -291,7 +291,7 @@ void pushFront(int val) {
     size++;                      //increment count
   }      
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoftwareengineering.stackexchange.com%2Fquestions%2F342040%2Foop-methods-contained-in-objects&psig=AOvVaw2AUBJiC1ypNvB3hElQy1rE&ust=1681691780419000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjGvZuUrf4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtarget.com%2Fwhatis%2Fdefinition%2Fmethod&psig=AOvVaw1AIQL8UAswu8QevJcPndCF&ust=1681787625509000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIji-6H5r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -317,7 +317,7 @@ class Triangle : public Shape {
 public:
 }
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtarget.com%2Fwhatis%2Fdefinition%2Fmethod&psig=AOvVaw2X8QpaPZqGmZpJ2wqSJvKJ&ust=1681691832710000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNC2jtSVrf4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fmultiple-inheritance-in-c%2F&psig=AOvVaw0B9OKeeRCxciSxInMXKG2z&ust=1681787657464000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPi1lrH5r_4CFQAAAAAdAAAAABAJ" width=250>
 
 
 
@@ -347,7 +347,7 @@ int main() {
 }
 
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtarget.com%2Fwhatis%2Fdefinition%2Fmethod&psig=AOvVaw2X8QpaPZqGmZpJ2wqSJvKJ&ust=1681691832710000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNC2jtSVrf4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.c-sharpcorner.com%2FUploadFile%2Fmkagrahari%2Fintroduction-to-object-oriented-programming-concepts-in-C-Sharp%2F&psig=AOvVaw0fkC2WOJhmEOYiZj0Bc-pQ&ust=1681787795958000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiyrPP5r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -369,7 +369,7 @@ void operator=(const MyVector &rhs) {
     }
   }
   ```
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.javatpoint.com%2Fcpp%2Fimages%2Fcpp-overloading.png&tbnid=iT4r0qGwYRRjSM&vet=12ahUKEwiVmuDwlq3-AhVawMkDHX98DBUQMygGegUIARDTAQ..i&imgrefurl=https%3A%2F%2Fwww.javatpoint.com%2Fcpp-overloading&docid=_p40B1KHnKsFtM&w=303&h=204&q=overloading%20oop%20definition&ved=2ahUKEwiVmuDwlq3-AhVawMkDHX98DBUQMygGegUIARDTAQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fcpp-overloading&psig=AOvVaw2Zyw83jQ8VZAtFx9JYrVXB&ust=1681787842227000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLisoIn6r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
@@ -414,7 +414,7 @@ int main() {
 }
 
 ```
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA5sp7i8NXWg%2Fmaxresdefault.jpg&tbnid=195y_VtlkGhvLM&vet=12ahUKEwiwy_qWl63-AhXkIt4AHfK4CZUQMygEegUIARDiAQ..i&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DA5sp7i8NXWg&docid=JS7_3EPu4j16IM&w=1280&h=720&q=polymorphism%20in%20oop&ved=2ahUKEwiwy_qWl63-AhXkIt4AHfK4CZUQMygEegUIARDiAQ" width=250>
+><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fperl-polymorphism-in-oops%2F&psig=AOvVaw0JdRHPcajDs2LdmslnaxGK&ust=1681787883119000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjw4pz6r_4CFQAAAAAdAAAAABAE" width=250>
 
 
 
