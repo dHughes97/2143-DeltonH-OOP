@@ -24,7 +24,10 @@
  *       main.cpp      :driver program
  *       output.txt    :txt file printint program output
  **********************************************************************/
+<<<<<<< HEAD
+=======
 #include <fstream>
+>>>>>>> bc23e56b25e7711c15870e8de104c83c79bc79a1
 #include <iostream>
 #include <map>
 #include <vector>
