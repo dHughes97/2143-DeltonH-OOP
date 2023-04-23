@@ -8,11 +8,9 @@
  #  Semester:         Spring 2023
  #
  #  Description:
- #    This program is to create and compile the syntax for the 
- #    Graphviz online compiler. Essentially we will make a program
- #    which will link nodes and style said nodes. Whether that be an
- #    edge or the node itself. Then it will print out syntax to 
- #    the compiler and the "outfile.txt".
+ #     
+ #          
+ #        
  # 
  #  Usage:
  #       -Allows the user to dynamicall create a linked list or a Vector
@@ -24,7 +22,7 @@
  #       main.cpp      :driver program
  #       output.txt    :txt file printint program output
  ########################################################################
-
+import sys
 import random
 ###########################################
 # Name: Die
@@ -44,24 +42,29 @@ import random
 #
 #
 ###########################################
-class Die:
-    def __init__(self, sides=6):
-        self.sides = sides
+class Die(object):
+  #self is variable name not reserved 
+  def __init__(self,sides=None):
+        if not sides: 
+            self.sides = 6
+        else: 
+            if not isinstance(sides, int):
+                print("error: sides is not an integer!")
+                sys.exit()
+            self.sides = sides 
+      
+      
+#returns a random value between whatever sides we have 
+  def roll(self, shuffles=1):
+      values = [x for x in range(self.sides)]
+      random.shuffle(values)
+      return values[0]+1
 
-
-    def roll(self, rolls=1):
-        #initialize sum to 0 
-        sum = 0 
-        #makes a for loop increment the amount of rolls
-        for _ in range(rolls):
-            #returns the sum of the randim int + 1
-            sum += random.randint(1, self.sides)
-        return sum 
-    
-    def __str__(self):
-        pass
-    
-    
+  
+#if you dont print conversion of string 
+#it will return just an address 
+  def __str__(self): 
+    return f"[sides: {self.sides}]"
 
 
 ###########################################
@@ -69,17 +72,77 @@ class Die:
 #
 # Descripition:
 #
-# Private Methods:
-#
-#
-# Public Methods:
+# Methods:
 #
 # Usage:
 #
 #
 ###########################################
-class Dice: 
-    pass
+
+class Dice(object):
+  #creating some number of dices based of the sides 
+  def __init__(self,sides=None,num_dice=1):
+    if not sides: 
+      print("Need to pass in sides!!")
+      sys.exit()
+      
+      #create a container
+    self.dice=[]
+    
+    for die in range(num_dice):
+      self.dice.append(Die(sides))
+
+  def stringDice(self,dStr):
+      box1 = dStr.split(".d.")
+      box2 = [int(box1[0]),int(box1[1])]
+      if self.dice : self.dice.clear()
+      for x in range(box2[0]):
+         self.dice.append(Die(box2[1]))
+
+  def rollSum(self): 
+    total = 0
+    for d in self.dice:
+      #is calling roll from Die class
+      total += d.roll()
+    return total 
+
+  def maxRoll(self, rolls=1):
+      roll_result = [d.roll() for d in self.dice]
+      #max_roll keeps track of largest number real time
+      max_num = roll_result[0]
+      #checking for the largest number 
+      for r in roll_result: 
+        if r > max_num: 
+          max_num = r
+      return max_num 
+  
+
+  def avgRoll(self):
+    avg = self.rollSum()
+    nDice = len(self.dice)
+    avg = avg / nDice
+    #formats the avg to 2nd decimal place
+    return "{:.2f}".format(avg)
+  
+  
+  def roll(self,rollType=None): 
+    if rollType == 'max':
+      return self.max()
+    elif rollType =='min':
+      return self.min()
+    elif rollType =='min':
+      return self.avg()
+    else:
+      return self.sum()
+ 
+
+  def __str__(self): 
+    s = ""
+    for d in self.dice: 
+      s = s + f"[sides: {d.sides}]\n"
+    
+    return s
+
 
 
 
