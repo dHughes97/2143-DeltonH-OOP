@@ -1,7 +1,7 @@
 ##A04
--Name: Delton Hughes
--Date: 2/1/2023
--Class: 2143 OOP
+###Name: Delton Hughes
+###Date: 2/1/2023
+###Class: 2143 OOP
 
 ##Definitions 
 
@@ -10,7 +10,36 @@
 > **Definition:** The process of hiding the internal details 
 > of an application from the outer world. 
 >
->
+> **Code Example** 
+```    
+class implementAbstraction {
+private:
+    int a, b;
+ 
+public:
+    // method to set values of
+    // private members
+    void set(int x, int y)
+    {
+        a = x;
+        b = y;
+    }
+ 
+    void display()
+    {
+        cout << "a = " << a << endl;
+        cout << "b = " << b << endl;
+    }
+};
+ 
+int main()
+{
+    implementAbstraction obj;
+    obj.set(10, 20);
+    obj.display();
+    return 0;
+}
+```
 >  
 <img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
 
@@ -23,8 +52,32 @@
 
 
 > **Properties**-special sort of class member, intermediate in functionality between a field(or data member) and a method.
- 
->
+  **Code Example** 
+```
+    //Attribute Example
+    int f(int i)
+{
+	if (i > 0)
+		return i;
+	else
+		return -1;
+
+	// Code
+}
+    //Propertie Example
+    private: 
+ 	int x; 
+    public:  
+ 	int getX()
+ 	{
+  		return x;
+  	}
+   	void setX(int value) 
+   	{
+   		x = value;
+        }
+
+```
 ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/300px-CPT-OOP-objects_and_classes_-_attmeth.svg.png" width=250>
 
 
@@ -252,7 +305,7 @@ public:
 ```
 class Person {
 private:
-    std::string name;
+    string name;
     int age;
 }
 ```
@@ -266,7 +319,7 @@ private:
 ```
 class Person {
 private:
-    std::string name;
+    string name;
     int age;
 }
 ```
@@ -420,11 +473,18 @@ int main() {
 
 #### Public/Private/Protected
 
-> **Definition:** 
+> **Definition:** Public-property or method inside of this can be accessed anywhere.
+> Private-property or method can only be accessed within the class. 
+> Protected- property or method can only be accessed within the class or by inherited/friended objects/methods. 
 > 
 > **Code Example:**
 ```
+class Shape {
+    protected/private:
+   
+    public:
 
+};
 ```
 ><img src="https://www.scmgalaxy.com/tutorials/wp-content/uploads/2021/10/php5-1.png" width=250>
 
@@ -432,11 +492,14 @@ int main() {
 
 #### Static
 
-> **Definition:** 
+> **Definition:** Creates a variable which is held in the heap. Allows for said variable to be shared. 
 > 
 > **Code Example:**
 ```
-
+ //static variable
+ class Person{
+     static int index_number; 
+    };
 ```
 ><img src="https://static.javatpoint.com/images/java-static-keyword1.png" width=250>
 
@@ -444,10 +507,17 @@ int main() {
 
 #### Virtual
 
-> **Definition:** 
+> **Definition:** A function is a member function which is inside a base class and overridden by a derived class. 
 > 
 > **Code Example:**
 ```
+class base {
+    public:
+        void fun_1() { cout << "base-1\n"; }
+        virtual void fun_2() { cout << "base-2\n"; }
+        virtual void fun_3() { cout << "base-3\n"; }
+        virtual void fun_4() { cout << "base-4\n"; }
+    };
 
 ```
 ><img src="https://www.sandordargo.com/assets/img/diamon-inheritance.png" width=250>
