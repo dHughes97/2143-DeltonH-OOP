@@ -1,9 +1,9 @@
-##A04
-###Name: Delton Hughes
-###Date: 2/1/2023
-###Class: 2143 OOP
+## A04
+### Name: Delton Hughes
+### Date: 2/1/2023
+### Class: 2143 OOP
 
-##Definitions 
+## Definitions 
 
 #### Abstraction
 
