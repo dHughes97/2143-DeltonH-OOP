@@ -97,7 +97,7 @@
 
 #### Composition
 
-> **Definition:**A class that references one or more objects of other classes in instance variables. 
+> **Definition:** A class that references one or more objects of other classes in instance variables. 
 > **Code Example:**
 ```
 #include <iostream>
@@ -138,7 +138,7 @@ int main() {
 
 #### Constructor
 
-> **Definition:**It initializes a newly created object of that type. This could be a copy, default, or even a parameterized constructor. 
+> **Definition:** It initializes a newly created object of that type. This could be a copy, default, or even a parameterized constructor. 
 > **Code Example:**
 ```
 //Default Constructor 
@@ -170,7 +170,7 @@ int main() {
 
 #### Encapsulation
 
-> **Definition:**a class that references one or more objects of other classes in instance variables. 
+> **Definition:** A class that references one or more objects of other classes in instance variables. 
 
 **Code Example:**
 ```
@@ -196,7 +196,7 @@ public:
 
 #### Friends
 
-**Definition:**Is put on a function that allows the method to access private and protected data members. 
+**Definition:** Is put on a function that allows the method to access private and protected data members. 
 
 **Code Example:**
 ```
@@ -223,7 +223,7 @@ public:
 
 #### Inheritance
 
-**Definition:**allows us to derive a class from another class, lets then share a set of methods or attributes. 
+**Definition:** Allows us to derive a class from another class, lets then share a set of methods or attributes. 
 
 **Code Example:**
 ```
@@ -248,7 +248,7 @@ public:
 
 
 #### Instance Variable
-**Definition:**Has a separate copy or instance in each of the its instances. It is non-static.
+**Definition:** Has a separate copy or instance in each of the its instances. It is non-static.
 ```
 class Person {
 private:
@@ -262,7 +262,7 @@ private:
 
 
 #### Member Variable
-**Definition:**is a variable assigned to its class which is accessible only to methods within the class and inheritated classes or friended methods.
+**Definition:** Is a variable assigned to its class which is accessible only to methods within the class and inheritated classes or friended methods.
 ```
 class Person {
 private:
@@ -276,7 +276,7 @@ private:
 
 
 #### Method
-**Definition:**is a function within a class that manipulates the member variables and/or allows the user to use a the created structure in a variety of ways.
+**Definition:** Is a function within a class that manipulates the member variables and/or allows the user to use a the created structure in a variety of ways.
 **Code Example:**
 ```
 void pushFront(int val) {
@@ -297,7 +297,7 @@ void pushFront(int val) {
 
 #### Multiple Inheritance
 
-**Definition:**Say we have three classes and one is the parent the other is the child and the third is the child of the child. It allows the last child to inherit from the parent of the first child and the original parent. 
+**Definition:** Say we have three classes and one is the parent the other is the child and the third is the child of the child. It allows the last child to inherit from the parent of the first child and the original parent. 
 
 **Code Example:**
 ```
@@ -322,7 +322,7 @@ public:
 
 
 #### Object
-**Defintion:**the things you think about first in designing a program and they are also the units of code that are eventually derived from the process
+**Defintion:** The things you think about first in designing a program and they are also the units of code that are eventually derived from the process
 ```
 #include <iostream>
 
@@ -352,7 +352,7 @@ int main() {
 
 
 #### Overloading
-**Definition:**Is a form of polymorphism, it overrides the meaning of an operator. 
+**Definition:** Is a form of polymorphism, it overrides the meaning of an operator. 
 **Code Example:**
 ```
 void operator=(const MyVector &rhs) {
@@ -374,7 +374,7 @@ void operator=(const MyVector &rhs) {
 
 
 #### Polymorphism
-**Definition:** the ability of objects of different classes to be treated as if they are of the same class, allowing for a single function call to have different behaviors depending on the type of object being used.
+**Definition:** The ability of objects of different classes to be treated as if they are of the same class, allowing for a single function call to have different behaviors depending on the type of object being used.
 
 **Code Example:**
 ```
@@ -420,23 +420,35 @@ int main() {
 
 #### Public/Private/Protected
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
-><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
+> **Definition:** 
+> 
+> **Code Example:**
+```
+
+```
+><img src="https://www.scmgalaxy.com/tutorials/wp-content/uploads/2021/10/php5-1.png" width=250>
 
 
 
 #### Static
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
+> **Definition:** 
+> 
+> **Code Example:**
+```
+
+```
 ><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
 
 
 
 #### Virtual
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
+> **Definition:** 
+> 
+> **Code Example:**
+```
+
+```
 ><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
 
