@@ -1,16 +1,45 @@
-##A04
--Name: Delton Hughes
--Date: 2/1/2023
--Class: 2143 OOP
+## A04
+### Name: Delton Hughes
+### Date: 2/1/2023
+### Class: 2143 OOP
 
-##Definitions 
+## Definitions 
 
 #### Abstraction
 
 > **Definition:** The process of hiding the internal details 
 > of an application from the outer world. 
 >
->
+> **Code Example** 
+```    
+class implementAbstraction {
+private:
+    int a, b;
+ 
+public:
+    // method to set values of
+    // private members
+    void set(int x, int y)
+    {
+        a = x;
+        b = y;
+    }
+ 
+    void display()
+    {
+        cout << "a = " << a << endl;
+        cout << "b = " << b << endl;
+    }
+};
+ 
+int main()
+{
+    implementAbstraction obj;
+    obj.set(10, 20);
+    obj.display();
+    return 0;
+}
+```
 >  
 <img src="https://i.ytimg.com/vi/1eSCCQPBqP0/maxresdefault.jpg" width=250>
 
@@ -23,8 +52,32 @@
 
 
 > **Properties**-special sort of class member, intermediate in functionality between a field(or data member) and a method.
- 
->
+  **Code Example** 
+```
+    //Attribute Example
+    int f(int i)
+{
+	if (i > 0)
+		return i;
+	else
+		return -1;
+
+	// Code
+}
+    //Propertie Example
+    private: 
+ 	int x; 
+    public:  
+ 	int getX()
+ 	{
+  		return x;
+  	}
+   	void setX(int value) 
+   	{
+   		x = value;
+        }
+
+```
 ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CPT-OOP-objects_and_classes_-_attmeth.svg/300px-CPT-OOP-objects_and_classes_-_attmeth.svg.png" width=250>
 
 
@@ -97,7 +150,7 @@
 
 #### Composition
 
-> **Definition:**A class that references one or more objects of other classes in instance variables. 
+> **Definition:** A class that references one or more objects of other classes in instance variables. 
 > **Code Example:**
 ```
 #include <iostream>
@@ -132,13 +185,13 @@ int main() {
 }
 
 ``` 
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40kamilmasyhur%2Fa-principle-of-object-oriented-design-79b9bfefd446&psig=AOvVaw0vNSN3YLy3OuH2KDs-H_BS&ust=1681786928088000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDPotX2r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*J_Dm57bKTppN51oZ.png" width=250>
 
 
 
 #### Constructor
 
-> **Definition:**It initializes a newly created object of that type. This could be a copy, default, or even a parameterized constructor. 
+> **Definition:** It initializes a newly created object of that type. This could be a copy, default, or even a parameterized constructor. 
 > **Code Example:**
 ```
 //Default Constructor 
@@ -164,13 +217,13 @@ int main() {
         this->price = price;
     }
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fconstructors-c%2F&psig=AOvVaw21q3nrJo2okdWqCA-jZDFw&ust=1681786996024000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDa5fX2r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://static.javatpoint.com/images/core/java-constructor.png" width=250>
 
 
 
 #### Encapsulation
 
-> **Definition:**a class that references one or more objects of other classes in instance variables. 
+> **Definition:** A class that references one or more objects of other classes in instance variables. 
 
 **Code Example:**
 ```
@@ -190,13 +243,13 @@ public:
 
 ```
 >
-><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FcWE3StXcEyM%2Fmaxresdefault.jpg&tbnid=8R9K_6UPjyCQzM&vet=12ahUKEwjN_I7A-K_-AhVfMt4AHb8yBPYQMygEegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fviktor-kukurba.medium.com%2Fobject-oriented-programming-in-javascript-4-encapsulation-4f9165cd26f9&docid=_QHVEehau8V6jM&w=1280&h=720&q=encapsulation%20oop%20definition&ved=2ahUKEwjN_I7A-K_-AhVfMt4AHb8yBPYQMygEegUIARDCAQ" width=250>
+><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Encapsulation_in_Java.png" width=250>
 
 
 
 #### Friends
 
-**Definition:**Is put on a function that allows the method to access private and protected data members. 
+**Definition:** Is put on a function that allows the method to access private and protected data members. 
 
 **Code Example:**
 ```
@@ -217,13 +270,13 @@ public:
 ```
 
 
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Ffriend-class-function-cpp%2F&psig=AOvVaw2vZkc7jOsBvDSebG5VC-lx&ust=1681787469221000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICkvdf4r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220802105339/FriendFunctioninC-660x328.png" width=250>
 
 
 
 #### Inheritance
 
-**Definition:**allows us to derive a class from another class, lets then share a set of methods or attributes. 
+**Definition:** Allows us to derive a class from another class, lets then share a set of methods or attributes. 
 
 **Code Example:**
 ```
@@ -243,40 +296,40 @@ class Triangle : public Shape {
 public:
 }
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInheritance_%2528object-oriented_programming%2529&psig=AOvVaw11XjzbkTHgwHr8ml2569-v&ust=1681787499534000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMiE6eX4r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://media.geeksforgeeks.org/wp-content/uploads/inheritance2.png" width=250>
 
 
 
 #### Instance Variable
-**Definition:**Has a separate copy or instance in each of the its instances. It is non-static.
+**Definition:** Has a separate copy or instance in each of the its instances. It is non-static.
 ```
 class Person {
 private:
-    std::string name;
+    string name;
     int age;
 }
 ```
 
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.w3resource.com%2Fjava-tutorial%2Fjava-class-methods-instance-variables.php&psig=AOvVaw2EGe5GprTuUuZPik44L4Cd&ust=1681787542590000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLihsPr4r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://scaler.com/topics/images/instance-variables-in-memory.webp" width=250>
 
 
 
 #### Member Variable
-**Definition:**is a variable assigned to its class which is accessible only to methods within the class and inheritated classes or friended methods.
+**Definition:** Is a variable assigned to its class which is accessible only to methods within the class and inheritated classes or friended methods.
 ```
 class Person {
 private:
-    std::string name;
+    string name;
     int age;
 }
 ```
 
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fcpp-tutorial%2Foops-concepts-in-cpp&psig=AOvVaw39w9J26suXs68P_TdvVLaM&ust=1681787580022000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKC3n4z5r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://www.w3resource.com/w3r_images/java-class-image.png" width=250>
 
 
 
 #### Method
-**Definition:**is a function within a class that manipulates the member variables and/or allows the user to use a the created structure in a variety of ways.
+**Definition:** Is a function within a class that manipulates the member variables and/or allows the user to use a the created structure in a variety of ways.
 **Code Example:**
 ```
 void pushFront(int val) {
@@ -291,13 +344,13 @@ void pushFront(int val) {
     size++;                      //increment count
   }      
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtarget.com%2Fwhatis%2Fdefinition%2Fmethod&psig=AOvVaw1AIQL8UAswu8QevJcPndCF&ust=1681787625509000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIji-6H5r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://editor.analyticsvidhya.com/uploads/96981images.png" width=250>
 
 
 
 #### Multiple Inheritance
 
-**Definition:**Say we have three classes and one is the parent the other is the child and the third is the child of the child. It allows the last child to inherit from the parent of the first child and the original parent. 
+**Definition:** Say we have three classes and one is the parent the other is the child and the third is the child of the child. It allows the last child to inherit from the parent of the first child and the original parent. 
 
 **Code Example:**
 ```
@@ -317,12 +370,12 @@ class Triangle : public Shape {
 public:
 }
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fmultiple-inheritance-in-c%2F&psig=AOvVaw0B9OKeeRCxciSxInMXKG2z&ust=1681787657464000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPi1lrH5r_4CFQAAAAAdAAAAABAJ" width=250>
+><img src="https://media.geeksforgeeks.org/wp-content/uploads/20191222084630/multipleinh.png" width=250>
 
 
 
 #### Object
-**Defintion:**the things you think about first in designing a program and they are also the units of code that are eventually derived from the process
+**Defintion:** The things you think about first in designing a program and they are also the units of code that are eventually derived from the process
 ```
 #include <iostream>
 
@@ -347,12 +400,12 @@ int main() {
 }
 
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.c-sharpcorner.com%2FUploadFile%2Fmkagrahari%2Fintroduction-to-object-oriented-programming-concepts-in-C-Sharp%2F&psig=AOvVaw0fkC2WOJhmEOYiZj0Bc-pQ&ust=1681787795958000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiyrPP5r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://media.licdn.com/dms/image/C4D12AQHk1I-XJxqg4g/article-inline_image-shrink_1000_1488/0/1576765668721?e=1687996800&v=beta&t=hXOvXgaByM6b83CcxEZoPzYbyRNJnv136KXves4NQOA" width=250>
 
 
 
 #### Overloading
-**Definition:**Is a form of polymorphism, it overrides the meaning of an operator. 
+**Definition:** Is a form of polymorphism, it overrides the meaning of an operator. 
 **Code Example:**
 ```
 void operator=(const MyVector &rhs) {
@@ -369,12 +422,12 @@ void operator=(const MyVector &rhs) {
     }
   }
   ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fcpp-overloading&psig=AOvVaw2Zyw83jQ8VZAtFx9JYrVXB&ust=1681787842227000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLisoIn6r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://1.bp.blogspot.com/-n--bPpsfELg/Vc89zk-7vJI/AAAAAAAADlI/VgDvSFWc6NE/s400/Difference%2Bbetween%2Bmethod%2Boverloading%2Band%2Boverriding%2Bin%2BJava.gif" width=250>
 
 
 
 #### Polymorphism
-**Definition:** the ability of objects of different classes to be treated as if they are of the same class, allowing for a single function call to have different behaviors depending on the type of object being used.
+**Definition:** The ability of objects of different classes to be treated as if they are of the same class, allowing for a single function call to have different behaviors depending on the type of object being used.
 
 **Code Example:**
 ```
@@ -414,29 +467,58 @@ int main() {
 }
 
 ```
-><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fperl-polymorphism-in-oops%2F&psig=AOvVaw0JdRHPcajDs2LdmslnaxGK&ust=1681787883119000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjw4pz6r_4CFQAAAAAdAAAAABAE" width=250>
+><img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/example-of-polymorphism-in-java.jpg" width=250>
 
 
 
 #### Public/Private/Protected
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
-><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
+> **Definition:** Public-property or method inside of this can be accessed anywhere.
+> Private-property or method can only be accessed within the class. 
+> Protected- property or method can only be accessed within the class or by inherited/friended objects/methods. 
+> 
+> **Code Example:**
+```
+class Shape {
+    protected/private:
+   
+    public:
+
+};
+```
+><img src="https://www.scmgalaxy.com/tutorials/wp-content/uploads/2021/10/php5-1.png" width=250>
 
 
 
 #### Static
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
-><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
+> **Definition:** Creates a variable which is held in the heap. Allows for said variable to be shared. 
+> 
+> **Code Example:**
+```
+ //static variable
+ class Person{
+     static int index_number; 
+    };
+```
+><img src="https://static.javatpoint.com/images/java-static-keyword1.png" width=250>
 
 
 
 #### Virtual
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
-><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
+> **Definition:** A function is a member function which is inside a base class and overridden by a derived class. 
+> 
+> **Code Example:**
+```
+class base {
+    public:
+        void fun_1() { cout << "base-1\n"; }
+        virtual void fun_2() { cout << "base-2\n"; }
+        virtual void fun_3() { cout << "base-3\n"; }
+        virtual void fun_4() { cout << "base-4\n"; }
+    };
+
+```
+><img src="https://www.sandordargo.com/assets/img/diamon-inheritance.png" width=250>
 
