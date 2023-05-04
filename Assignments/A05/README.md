@@ -21,32 +21,32 @@ the return types.
 
 ### Campaign
 
-<img src="campaign.png" width="200">
+<img src="images/campaign.png" width="200">
 
 ### Equipment
 
-<img src="Y:\C++\2143-DeltonH-OOP-1\Assignments\A05\images\equipment.png" width="200">
+<img src="images/equipment.png" width="200">
 
 ### Dungeon Master
 
-<img src="" width="200">
+<img src="images/dungeon_master" width="200">
 
 ### Enemies
 
-<img src="" width="400">
+<img src="images/enemies.png" width="400">
 
 ### Encounter
 
-<img src="" width="400">
+<img src="images/encounter.png" width="400">
 
 ### Items
 
-<img src="" width="400">
+<img src="images/items.png" width="400">
 
 ### Weapons
 
-<img src="" width="400">
+<img src="images/weapons.png" width="400">
 
 ### Character
 
-<img src="" width="400">
+<img src="images/character.png" width="400">
