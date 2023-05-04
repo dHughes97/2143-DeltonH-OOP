@@ -29,7 +29,7 @@ the return types.
 
 ### Dungeon Master
 
-<img src="images/dungeon_master" width="200">
+<img src="images/dungeon_master.png" width="200">
 
 ### Enemies
 
